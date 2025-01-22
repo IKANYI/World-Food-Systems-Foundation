@@ -1,0 +1,33 @@
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #029246;
+  height: 7vh; 
+  color: #fff;
+}
+.left_top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  gap: 40px;
+  /* align-items: center;
+  justify-content: space-evenly;
+  margin: 1rem; */
+}
+.top a{
+  text-decoration: none;
+  color: #fff;
+}
+.right_top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 50px;
+  gap: 50px;
+  /* margin-left: 40px; */
+  /* align-items: center;
+  justify-content: space-around; */
+}
+
