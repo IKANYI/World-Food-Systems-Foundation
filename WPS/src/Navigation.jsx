@@ -18,10 +18,16 @@ function Navigation(){
   return (
     <div style={{width:'100%', height: '100vh'}}>
       <nav>
-        <div className='burger-menu'>
-          <div className={burger_class} onClick={updateMenu}></div>
-          <div className={burger_class} onClick={updateMenu}></div>
-          <div className={burger_class} onClick={updateMenu}></div>
+        <div className="burger-menu" onClick={updateMenu}>
+          <div className={burger_class} >
+            <p>hello world</p>
+          </div>
+          <div className={burger_class} >
+             <p>palisade</p> 
+          </div>
+          <div className={burger_class} >
+           <p> octahedral</p>
+          </div>
         </div>
       </nav>
       <div className={menu_class}></div>
