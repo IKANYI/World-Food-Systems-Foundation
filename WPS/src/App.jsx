@@ -1,13 +1,12 @@
-import Navbar from "./components/Navbar.jsx";
+import Burger from "./components/Burger";
 import Head from "./Head"
-import Navigation from "./Navigation.jsx";
 function App() {
  
 
   return (
     <>
       <Head/>
-      <Navbar/>
+      <Burger/>
     </>
   )
 }
