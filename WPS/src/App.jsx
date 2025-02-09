@@ -1,5 +1,6 @@
 import Burger from "./components/Burger";
 import Head from "./Head"
+import Home from "./Home";
 function App() {
  
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Head/>
       <Burger/>
+      <Home/>
     </>
   )
 }

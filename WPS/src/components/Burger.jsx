@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Rightnav from './Rightnav';
+import Logo from '../assets/logo.png';
 
 const Burgerstyled = styled.div`
   width: 7rem;
@@ -13,7 +14,11 @@ const Burgerstyled = styled.div`
   flex-flow: column nowrap;
   justify-content: space-around;
   cursor: pointer;
-
+  img{
+  height: 2rem;
+  position: fixed;
+  overflow: hidden;
+  }
   @media screen and (max-width: 768px) {
     width: 3rem;
     height: 2rem;
@@ -46,6 +51,7 @@ const Burger = () => {
 
   return (
     <>
+    <img src={Logo} alt="logo" />
       <Burgerstyled open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />

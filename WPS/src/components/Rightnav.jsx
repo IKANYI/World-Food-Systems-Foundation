@@ -4,15 +4,27 @@ import styled from 'styled-components';
 const Ul = styled.ul`
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
+  flex-flow: column nowrap;
+  align-items: left;
   margin: 0;
   padding: 0;
+  background-color:rgb(247, 247, 247);
+  height:100vh;
+  margin-top:1rem;
 
   li {
     padding: 18px 10px;
     cursor: pointer;
   }
+    li:hover {
+      background-color: #029447;
+    }
+     a{
+      style: none;
+      text-decoration: none;
+      text-underline: none;
+      text-transform: uppercase;
+      }
 
   @media screen and (max-width: 768px) {
     flex-flow: column nowrap;
@@ -32,6 +44,7 @@ const Ul = styled.ul`
       padding: 18px;
       text-align: center;
     }
+   
 
     li:hover {
       background-color: rgba(255, 255, 255, 0.2);
@@ -42,10 +55,11 @@ const Ul = styled.ul`
 const Rightnav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Home</li>
-      <li>Contact Us</li>
-      <li>Sign In</li>
-      <li>Sign Up</li>
+      <li><a href="">home</a></li>
+      <li><a href="">about us</a></li>
+      <li><a href="">what we do</a></li>
+      <li><a href="">media and resources</a></li>
+      <li><a href="">contact us</a></li>
     </Ul>
   );
 };
