@@ -4,6 +4,7 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Impact from "./Impact";
 import PartnersCarousel from "./PartnersCarousel";
+import AboutUs from "./Aboutus";
 function App() {
  
 
@@ -12,6 +13,7 @@ function App() {
       <Head/>
       <Burger/>
       <Home/>
+      <AboutUs/>
       <Impact/>
       <PartnersCarousel/>
       <Footer/>
