@@ -48,15 +48,15 @@ const AboutUs = () => {
       <TextContainer>
         <h2>ABOUT US</h2>
         <p>
-          Rural Initiatives Development Programme (RIDEP) was registered in
-          2003 under the Kenyan law as a Community Based Organization (CBO). It
-          has its office at Marimanti, Tharaka. It has its operations in
-          Tharaka Sub-counties of Tharaka North and Tharaka South. It works with
-          smallholder farmers and pastoralists to help them improve their
+          Community Food System foundation (CFSF) was registered in
+          2024 under the Kenyan law as a Community Based Organization (CBO). It
+          has its office at KANGARI, Murang'a. It has its operations in
+          Kigumo Sub-counties of Murang'a County. It works with
+          smallholder farmers and Livestock farmers to help them improve their
           livelihood security.
         </p>
         <p>
-          RIDEP envisions resilient communities living in a healthy environment
+          CFSF envisions resilient communities living in a healthy environment
           and sustainably using local resources for their improved quality of
           whole life. Its mission is to facilitate local communities to build
           their resilience against the impacts of climate change through
@@ -64,7 +64,7 @@ const AboutUs = () => {
         </p>
       </TextContainer>
       <ImageContainer>
-        <img src={aboutImage} alt="RIDEP Community Work" />
+        <img src={aboutImage} alt="CFSF Community Work" />
       </ImageContainer>
     </AboutSection>
   );
