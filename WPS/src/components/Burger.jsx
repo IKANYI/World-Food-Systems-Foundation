@@ -3,6 +3,13 @@ import styled from 'styled-components';
 import Rightnav from './Rightnav';
 import Logo from '../assets/logo.png';
 
+const ImageStyled = styled.div`
+ width:7rem;
+ img{
+ width:100%;
+ }
+`
+
 const Burgerstyled = styled.div`
   width: 7rem;
   height: 2rem;
@@ -14,11 +21,8 @@ const Burgerstyled = styled.div`
   flex-flow: column nowrap;
   justify-content: space-around;
   cursor: pointer;
-  img{
-  height: 2rem;
-  position: fixed;
-  overflow: hidden;
-  }
+  
+
   @media screen and (max-width: 768px) {
     width: 3rem;
     height: 2rem;
@@ -51,7 +55,10 @@ const Burger = () => {
 
   return (
     <>
-    <img src={Logo} alt="logo" />
+    <ImageStyled>
+     <img src={Logo} alt="logo" />
+    </ImageStyled>
+    
       <Burgerstyled open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />

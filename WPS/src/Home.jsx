@@ -29,6 +29,8 @@ const TextContainer = styled.div`
   text-align: center;
   position: relative;
   z-index: 2;
+  overflow: hidden;
+  margin: 1px;
 
   h1 {
     text-transform: uppercase;
