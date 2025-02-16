@@ -8,10 +8,11 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 // Sample partner logos (replace with actual image URLs)
 const partnerLogos = [
-  { src: "/images/partner1.png", alt: "Partner 1" },
-  { src: "/images/partner2.png", alt: "Partner 2" },
-  { src: "/images/partner3.png", alt: "Partner 3" },
-  { src: "/images/partner4.png", alt: "Partner 4" },
+  { src: "../src/assets/oack-logo.png", alt: "Partner organic agriculture centre of kenya" },
+  { src: "../src/assets/pelum.png", alt: "Partner pelum kenya" },
+  { src: "../src/assets/muranga.png", alt: "Partner murang'a county" },
+  { src: "../src/assets/logo-kalro.png", alt: "Partner kalro" },
+  { src: "../src/assets/UFSC-logo.jpg", alt: "Partner ufsc" },
 ];
 
 const Section = styled.div`

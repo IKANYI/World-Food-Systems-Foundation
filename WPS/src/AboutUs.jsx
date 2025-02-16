@@ -48,11 +48,11 @@ const AboutUs = () => {
       <TextContainer>
         <h2>ABOUT US</h2>
         <p>
-          Community Food System foundation (CFSF) was registered in
-          2024 under the Kenyan law as a Community Based Organization (CBO). It
-          has its office at KANGARI, Murang'a. It has its operations in
-          Kigumo Sub-counties of Murang'a County. It works with
-          smallholder farmers and Livestock farmers to help them improve their
+          Community Food Systems foundation (CFSF) was registered in
+          2025 under the Kenyan law as a Community Based Organization (CBO). It
+          has its office at Nairobi, Kenya. It has its operations in
+          countrywide. It works with
+          other organization  and farmers to help them improve their
           livelihood security.
         </p>
         <p>

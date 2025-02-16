@@ -9,11 +9,11 @@ function Head(){
     <div className="top">
       <div className="left_top">
       <IoLocationOutline />
-      <div><p>Murang'a</p></div>
+      <div><p>Kenya</p></div>
       <div><a href=""><MdOutlineMailOutline /></a></div>
-      <div><a href="">world food granary</a></div>
+      <div><a href="">Community Food System Foundation</a></div>
       <div><a href=""><FaPhoneAlt /></a></div>
-      <div><p>+254722588571</p></div>
+      <div><p>+254 720794573</p></div>
       </div>
       <div className="right_top">
       <div><a href=""><FaXTwitter /></a></div>

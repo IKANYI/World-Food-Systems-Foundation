@@ -13,7 +13,8 @@ const ImageStyled = styled.div`
 const Burgerstyled = styled.div`
   width: 7rem;
   height: 2rem;
-  position: fixed;
+  position: absolute;
+
   right: 1px;
   top: 5rem;
   z-index: 100;
@@ -21,7 +22,7 @@ const Burgerstyled = styled.div`
   flex-flow: column nowrap;
   justify-content: space-around;
   cursor: pointer;
-  
+
 
   @media screen and (max-width: 768px) {
     width: 3rem;
