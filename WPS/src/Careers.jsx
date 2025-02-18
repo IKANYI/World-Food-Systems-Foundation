@@ -45,9 +45,9 @@ const Careers = () => {
       <Banner>Careers</Banner>
       <Content>
         <p>
-          RIDE is an equal opportunity employer and seeks to further diversify
+          CFSF is an equal opportunity employer and seeks to further diversify
           its staff by attracting a professional team that is representative of
-          the beneficiaries and constituencies we serve. RIDE does not
+          the beneficiaries and constituencies we serve. CFSF does not
           discriminate against any individual in matters of employment. We set
           high professional standards and recruit based on a rigorous set of
           criteria to ensure future excellence in our organization.
