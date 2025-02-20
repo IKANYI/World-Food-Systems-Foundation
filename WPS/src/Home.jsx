@@ -17,6 +17,11 @@ const HomeStyled = styled.div`
   text-align: center;
   transition: background-image 2s ease-out;
   position: relative;
+  padding: 1rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 `;
 
 /* Wrapper for the text area to apply the overlay */
@@ -30,7 +35,7 @@ const TextContainer = styled.div`
   position: relative;
   z-index: 2;
   overflow: hidden;
-  margin: 1px;
+  margin: 10px;
 
   h1 {
     text-transform: uppercase;
@@ -59,6 +64,48 @@ const TextContainer = styled.div`
 
     &:hover {
       transform: scale(1.05);
+    }
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    max-width: 70%;
+    padding: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 80%;
+    padding: 1.2rem;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    a {
+      font-size: 1rem;
+      padding: 0.4rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    max-width: 90%;
+    padding: 1rem;
+
+    h1 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    a {
+      font-size: 0.9rem;
+      padding: 0.3rem;
     }
   }
 `;
