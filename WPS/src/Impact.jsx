@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const ImpactContainer = styled.div`
-  background: #008000; /* Green background */
+  background: #008000;
   padding: 2rem;
   text-align: center;
   color: white;
@@ -22,7 +22,7 @@ const ImpactGrid = styled.div`
 `;
 
 const ImpactCard = styled.div`
-  background: #029402; /* Slightly darker green */
+  background: #029402; 
   padding: 1.5rem;
   width: 200px;
   border-radius: 10px;
@@ -43,10 +43,10 @@ const Description = styled.p`
 
 const Impact = () => {
   const impactData = [
-    { number: 100, text: "Water Tanks" },
-    { number: 100, text: "Trees Planted" },
-    { number: 100, text: "Women Trained" },
-    { number: 100, text: "Goats Distributed" },
+    { number: 10, text: "Water Tanks" },
+    { number: 500, text: "Trees Planted" },
+    { number: 250, text: "Women Trained" },
+    { number: 5, text: "Organizations Partners " },
   ];
 
   return (
